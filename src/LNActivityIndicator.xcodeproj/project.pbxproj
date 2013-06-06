@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7815BD6D1761476400CBC1D4 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 7815BD6C1761476400CBC1D4 /* 19-gear.png */; };
+		7815BD6F1761476D00CBC1D4 /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7815BD6E1761476D00CBC1D4 /* 19-gear@2x.png */; };
 		78A7B63A1751678E005BC458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A7B6391751678E005BC458 /* UIKit.framework */; };
 		78A7B63C1751678E005BC458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A7B63B1751678E005BC458 /* Foundation.framework */; };
 		78A7B63E1751678E005BC458 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A7B63D1751678E005BC458 /* CoreGraphics.framework */; };
@@ -18,11 +20,11 @@
 		78A7B67017516928005BC458 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A7B66D17516928005BC458 /* ViewController_iPhone.xib */; };
 		78A7B673175169E1005BC458 /* LNActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A7B672175169E1005BC458 /* LNActivityIndicatorView.m */; };
 		78A7B675175169F7005BC458 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A7B674175169F7005BC458 /* QuartzCore.framework */; };
-		78A7B67817517961005BC458 /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A7B67617517961005BC458 /* 01-refresh.png */; };
-		78A7B67917517961005BC458 /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A7B67717517961005BC458 /* 01-refresh@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7815BD6C1761476400CBC1D4 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		7815BD6E1761476D00CBC1D4 /* 19-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear@2x.png"; sourceTree = "<group>"; };
 		78A7B6361751678E005BC458 /* LNActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A7B6391751678E005BC458 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78A7B63B1751678E005BC458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		78A7B671175169E1005BC458 /* LNActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNActivityIndicatorView.h; sourceTree = "<group>"; };
 		78A7B672175169E1005BC458 /* LNActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNActivityIndicatorView.m; sourceTree = "<group>"; };
 		78A7B674175169F7005BC458 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		78A7B67617517961005BC458 /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
-		78A7B67717517961005BC458 /* 01-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,8 @@
 		78A7B65F17516820005BC458 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				78A7B67617517961005BC458 /* 01-refresh.png */,
-				78A7B67717517961005BC458 /* 01-refresh@2x.png */,
+				7815BD6C1761476400CBC1D4 /* 19-gear.png */,
+				7815BD6E1761476D00CBC1D4 /* 19-gear@2x.png */,
 				78A7B66B17516928005BC458 /* ViewController_iPad.xib */,
 				78A7B66D17516928005BC458 /* ViewController_iPhone.xib */,
 				78A7B6651751691A005BC458 /* AppDelegate.h */,
@@ -176,8 +176,8 @@
 				78A7B663175168FA005BC458 /* LNActivityIndicator-Info.plist in Resources */,
 				78A7B66F17516928005BC458 /* ViewController_iPad.xib in Resources */,
 				78A7B67017516928005BC458 /* ViewController_iPhone.xib in Resources */,
-				78A7B67817517961005BC458 /* 01-refresh.png in Resources */,
-				78A7B67917517961005BC458 /* 01-refresh@2x.png in Resources */,
+				7815BD6D1761476400CBC1D4 /* 19-gear.png in Resources */,
+				7815BD6F1761476D00CBC1D4 /* 19-gear@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
