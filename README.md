@@ -6,7 +6,7 @@ A simple QuartzCore-based activity indicator that rotates an image while some ac
 Dependencies
 ============
 
-The animations depends on the QuartzCore framework, so be sure to add it to your project or you'll get a linker error when you build.
+The animation depends on the QuartzCore framework, so be sure to add it to your project or you'll get a linker error when you build.
 
 Usage
 =====
